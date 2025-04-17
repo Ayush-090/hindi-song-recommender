@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 st.set_page_config(page_title="🎵 PasandidaBaajao", layout="centered")
 
-st.title("🎶💫PasandidaBaajaoo ")
+st.title("🎶PasandidaBajaao ")
 st.write("Get similar songs based on genre, artist, and movie 🎧")
 
 # Load the dataset
