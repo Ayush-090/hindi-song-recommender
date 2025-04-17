@@ -3,9 +3,9 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-st.set_page_config(page_title="🎵 Hindi Song Recommender", layout="centered")
+st.set_page_config(page_title="🎵 PasandidaBaajao", layout="centered")
 
-st.title("🎶 Hindi Song Recommender App")
+st.title("🎶💫PasandidaBaajaoo ")
 st.write("Get similar songs based on genre, artist, and movie 🎧")
 
 # Load the dataset
