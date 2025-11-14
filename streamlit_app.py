@@ -3,9 +3,9 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-st.set_page_config(page_title="🎵 PasandidaBaajao", layout="centered")
+st.set_page_config(page_title="🎵 Raagify ", layout="centered")
 
-st.title("🎶PasandidaBajaao ")
+st.title("🎶Raagify ")
 st.write("Get similar songs based on genre, artist, and movie 🎧")
 
 # Load the dataset
@@ -38,3 +38,4 @@ if st.button("Recommend Similar Songs"):
     for i in similar_songs:
         row = df.iloc[i[0]]
         st.markdown(f"**🎵 {row['Song-Name']}** — *{row['Singer/Artists']}*  \n🎬 *Movie:* {row['Album/Movie']} | ⭐ *Rating:* {row['User-Rating']}")
+
